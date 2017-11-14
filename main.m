@@ -5,8 +5,6 @@
 % recordblocking(recObj, 6);
 % disp("End of Recording.");
 
-recObj = recObj3;
-% play(recObj);
 soundArray = getaudiodata(recObj);
 
 %%% part 2: calculate fundamental frequency and period of note A4
